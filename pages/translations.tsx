@@ -25,7 +25,7 @@ function TranslationsPage(): React.ReactElement {
               href="https://github.com/denoland/deno_website2/blob/master/translations.json"
               className="link"
             >
-              Ajoutez la votre!
+              Ajoutez la vôtre!
             </a>
           </p>
         </div>
