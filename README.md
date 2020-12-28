@@ -2,15 +2,15 @@
 
 [![Build Status](https://github.com/denoland/deno_website2/workflows/ci/badge.svg?branch=master&event=push)](https://github.com/denoland/deno_website2/actions)
 
-This is the code for https://deno.land/
+Voici le code du site https://deno.land/
 
-This website consists of two parts
+Il consiste en deux parties :
 
-1. A Cloudflare Worker
-2. A Next.js app hosted on Vercel
+1. Un Cloudflare Worker
+2. Une application Next.js hébergée sur Vercel
 
-We want to provide pretty and semantic URLs for modules that will be used within
-Deno. For example: https://deno.land/std/http/server.ts
+Nous voulons fournir des URLs jolies et explicites pour les modules qui seront utilisés par Deno.
+Par example : https://deno.land/std/http/server.ts
 
 When we request this file inside of Deno, we need to receive back the raw
 content of the file. However, when we visit that URL in the browser we want to
