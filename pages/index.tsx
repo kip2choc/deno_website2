@@ -54,7 +54,7 @@ for await (const req of s) {
           <p className="my-4 text-gray-700">
             Deno est un moteur d'exécution simple, moderne et sécurisé pour JavaScript et TypeScript qui utilise V8 et développé en Rust.
           </p>
-          <ol className="ml-8 list-disc text-gray-700"et >
+          <ol className="ml-8 list-disc text-gray-700">
             <li>
               Sécurisé par défaut. Aucun accès au réseau, aux fichiers ni à l'environnement sauf si explicitement autorisés.
             </li>
